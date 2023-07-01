@@ -1,0 +1,17 @@
+Growbox, du¿a szklarnia do uprawy grzybów. Urz¹dzenie steruj¹ce ma za zadanie utrzymywaæ w niej odpowiednie warunki takie jak:
+- wilgotnoœæ
+- temperatura
+- œwiat³o
+- CO2
+
+Sterownik pozwala na ustawienie zadanej temepratury, która ma byæ utrzymywana w Growboxie. Jeœli temepratura jest za niska w³¹cza matê grzewcz¹ lub suszarkê (w zale¿noœci od tego co pod³¹czymy do przekaŸnika), jeœli za wysoka, w³¹cza ch³odzenie poprzez ogniwa peltiera i wentylatory.
+
+Wilgotnoœæ powietrza mierzona jest poprzez odpowiednie czujniki wilgotnoœci. Jeœli spada sterownik w³¹cza nawil¿acz ultradŸwiêkowy i wentylatory, które wdmuchuj¹ mg³ê wodn¹ do œrodka. Jeœli wilgotnoœæ jest zbyt du¿a w³¹czane s¹ wentylatory przewietrzaj¹ce growbox.
+
+Sterownik w³¹cza taœmê led. Program pomyœlany jest w taki sposób, by taœma imitowa³a wschód i zachód s³oñca. Diody zapalaj¹ siê powoli, najpierw daj¹c œwiat³o czerwonawe. Podobny efekt jest pod koniec dnia, kiedy diody œciemniaj¹ siê powoli, daj¹c coraz bardziej czerwone œwiat³o. 
+
+Monitorowany jest równie¿ poziom dwutlenku wêgla, poniewa¿ boczniaki wytwarzaj¹ bardzo du¿o CO2 i musz¹ byæ bardzo czêsto wietrzone. Po przekroczeniu zadanego poziomu CO2 w³¹czane s¹ wentylatory przewietrzaj¹ce.
+
+Ca³oœci¹ steruje siê poprzez przyciski i informacje na wyœwietlaczu ciek³okrystalicznym. W projekcie wykorzystany jest real time clock, aby zaprogramowaæ godziny w³¹czania i wy³¹czania œwiate³. 
+
+W projekcie musia³em wykorzystaæ ekspandery, poniewa¿ iloœæ wejœæ/wyjœæ w arduino by³a zdecydowanie niewystarczaj¹ca do obs³u¿enia wszystkich czujek itd. 
